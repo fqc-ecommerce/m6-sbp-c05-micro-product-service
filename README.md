@@ -92,3 +92,12 @@ La aplicación incluye Spring Boot Actuator para monitoreo:
 
 ## 📄 Licencia
 Este proyecto está bajo la licencia [MIT](LICENSE).
+
+
+### Para hacer cambios y actualizar el contenedor
+```
+./mvnw clean package -DskipTests
+```
+```
+docker-compose up -d --build product-service-dev
+```

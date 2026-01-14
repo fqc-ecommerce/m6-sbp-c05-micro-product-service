@@ -36,5 +36,6 @@ public class ProductEntity {
     @Column(name = "created_by")
     private Long createdBy;
 
-
+    @Column(name = "image_url", length = 500)
+    private String imageUrl;
 }
